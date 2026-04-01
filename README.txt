@@ -1,0 +1,1 @@
+Extract, cd electron, run npm install, npm run make, then run Persona App Setup.exe

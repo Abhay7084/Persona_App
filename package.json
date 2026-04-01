@@ -1,0 +1,26 @@
+{
+  "name": "persona-electron-desktop",
+  "productName": "Persona App",
+  "version": "1.0.0",
+  "description": "Persona Desktop App with client, photographer, and editor platform",
+  "author": "Abhay Tiwari",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "electron": "29.4.0",
+    "@electron-forge/cli": "^6.3.0",
+    "@electron-forge/maker-squirrel": "^6.3.0",
+    "@electron-forge/maker-zip": "^6.3.0"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
